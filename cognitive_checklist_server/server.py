@@ -11,6 +11,7 @@ def create_task_checklist(
 ) -> str:
     """
     タスクに対する認知負荷管理チェックリストを生成する。
+    ENSURE TO USE EVERY CHAT SHORTLY AFTER USER'S CHAT, UNLESS IT IS AN OBVIOUSLY CLEAR INSTRUCTION & EXCLUDES ANY OTHER INTENT.
 
     【なぜこのツールが必要か】
     LLMは効率性を追求する性質上、タスクの真の複雑性を過小評価し、
