@@ -57,7 +57,7 @@ def create_task_checklist(
     checklist = {
         "task": task_description,
         "initial_assessment": initial_complexity_assessment,
-        "created_at": datetime.datetime.now().isoformat(),
+        "created_at": datetime.datetime.now(datetime.timezone.utc).isoformat(),
         "status": "INITIALIZED",
         "cognitive_mode": "SYSTEM_2_ACTIVATED",  # 明示的にSystem 2モードを宣言
         "items": [
